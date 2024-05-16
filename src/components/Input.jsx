@@ -14,7 +14,7 @@ export const Input = ({ todos, setTodos }) => {
     }
     const newTodo = {
       id: Date.now(),
-      title: title,
+      title: title, // 단축 속성명 title, contents,
       contents: contents,
       isDone: false,
     };

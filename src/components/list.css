@@ -49,13 +49,13 @@
   font-size: calc(100%);
 }
 
-.compl-cencel-btn {
+.compl-cancel-btn {
   background-color: greenyellow;
   color: white;
   margin-right: 10px;
 }
 
-.compl-cencel-btn:hover {
+.compl-cancel-btn:hover {
   cursor: pointer;
   font-size: calc(100%);
 }
