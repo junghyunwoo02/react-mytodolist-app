@@ -1,8 +1,7 @@
 import { useState } from "react";
 import "./App.css";
-import { Input } from "./components/Input.jsx";
-import { TodoList } from "./components/TodoList.jsx";
-import { DoneList } from "./components/DoneList.jsx";
+import { Input } from "./components/input/Input.jsx";
+import TodoDoneList from "./components/list/TodoDoneList.jsx";
 
 function App() {
   const initialState = [
@@ -30,9 +29,7 @@ function App() {
       <main style={{ padding: "10px" }}>
         <Input todos={todos} setTodos={setTodos} />
         <div>
-          <TodoList todos={todos} setTodos={setTodos} />
-
-          <DoneList todos={todos} setTodos={setTodos} />
+          <TodoDoneList todos={todos} setTodos={setTodos} />
         </div>
       </main>
     </div>
